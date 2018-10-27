@@ -1,7 +1,9 @@
+![join us](https://i.imgur.com/5DHqgPZ.png)
+
 # Join-Us
 A simple web application that serves as a mailing list.
 
-![join us](https://i.imgur.com/5DHqgPZ.png)
+
 
 ### Program Execution
 npm install [ Install all the dependencies listed in the package.json. ]

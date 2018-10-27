@@ -1,6 +1,6 @@
 ![join us](https://i.imgur.com/5DHqgPZ.png)
 
-# Join-Us
+# Join Us
 A simple web application that serves as a mailing list.
 
 

@@ -11,4 +11,6 @@ to run the application
 
 open localhost:8080
 to view the webpage
-![program execution](https://imgur.com/5DHqgPZ)
+
+
+![join us](https://imgur.com/5DHqgPZ)

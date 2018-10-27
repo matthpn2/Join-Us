@@ -3,6 +3,7 @@ var mysql = require("mysql");
 var bodyParser = require("body-parser");
 
 var app = express();
+
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
@@ -26,15 +27,15 @@ app.get("/", function(req, res) {
 
 app.post("/register", function(req, res) {
     var person = {
-        email: req.body.email
-    };
+                    email: req.body.email
+                 };
 
     connection.query("INSERT INTO users SET ?", person, function(err, results) {
-        if(err) throw err;
+        if(err) console.log(err);
         res.redirect("/");
     });
 });
 
 app.listen(8080, function() {
-    console.log('App is listening on Port 8080!');
+    console.log('Join Us web application is listening on Port 8080.');
 });
